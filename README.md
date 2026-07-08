@@ -1,7 +1,7 @@
 # Hyperliquid Sentiment Analysis: Trader Behavior vs. PnL
 
-**Live Interactive Dashboard:** [Click here to view the live app][(PASTE_YOUR_STREAMLIT_URL_HERE)](https://hyperliquidsentimentanalysis-8xg7eptne9fsbck8jvp7yz.streamlit.app/)
-
+**Live Interactive Dashboard:** [Click here to view the live app][(https://hyperliquidsentimentanalysis-8xg7eptne9fsbck8jvp7yz.streamlit.app/)
+]
 This repository contains the analysis for the Primetrade.ai Data Science Intern Round-0 Assignment. The objective of this project is to explore how broader Bitcoin market sentiment (Fear/Greed) directly influences trader behavior, capital deployment, and overall profitability on the Hyperliquid platform.
 
 ## ⚙️ Setup & Execution
