@@ -28,7 +28,7 @@ def load_and_prep_data():
 # ==============================================================================
 # Read the compressed ZIP file directly into pandas to bypass file size limits
 # ==============================================================================
-trader_df = pd.read_csv("historical_data.zip", low_memory=False)
+    trader_df = pd.read_csv("historical_data.zip", low_memory=False)
     sentiment_df = pd.read_csv("fear_greed_index.csv")
 
     # 1. Clean missing values
