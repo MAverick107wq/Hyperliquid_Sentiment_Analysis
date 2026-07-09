@@ -19,12 +19,11 @@ This repository contains the analysis for the Primetrade.ai Data Science Intern 
    ```bash
    streamlit run market_sentiment_dashboard.py
 
-🔬 Methodology & Machine Learning
-Both datasets were ingested and validated for missing values. Timestamps were standardized to a unified YYYY-MM-DD format to enable accurate daily merging.
+## 🔬 Methodology & Machine Learning
 
-Beyond standard metric engineering (Daily_PnL, Win_Rate, Long_Ratio), two machine learning models were deployed to deepen the analysis:
+Both datasets were ingested and validated for missing values. Timestamps were standardized to a unified **YYYY-MM-DD** format to enable accurate daily merging.
 
-Behavioral Clustering (Unsupervised ML): A K-Means clustering algorithm was applied to segment accounts into three distinct behavioral archetypes based on trade frequency, average size, and PnL: Retail Traders, Whales (High Capital), and High-Frequency Grinders.
+Beyond standard metric engineering (`Daily_PnL`, `Win_Rate`, `Long_Ratio`), two machine learning models were deployed to deepen the analysis:
 
-Profitability Prediction (Supervised ML): A Random Forest Classifier was trained to predict trade profitability (Win/Loss) using trade size, directional bias (Buy/Sell), and sentiment classification, achieving an accuracy of ~65%.
-   
+*   **Behavioral Clustering (Unsupervised ML):** A **K-Means clustering algorithm** was applied to segment accounts into three distinct behavioral archetypes based on trade frequency, average size, and PnL: *Retail Traders*, *Whales (High Capital)*, and *High-Frequency Grinders*.
+*   **Profitability Prediction (Supervised ML):** A **Random Forest Classifier** was trained to predict trade profitability (Win/Loss) using trade size, directional bias (Buy/Sell), and sentiment classification, achieving an accuracy of **~65%**.
